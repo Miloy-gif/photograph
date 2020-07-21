@@ -1,2 +1,2 @@
 # photograph
-site photograph [js]
+site photograph [js]   [https://miloy-gif.github.io/photograph/]
