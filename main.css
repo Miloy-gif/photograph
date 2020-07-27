@@ -1,7 +1,8 @@
 body {
   max-height: 100%;
   max-width: 100%;
-  /*background-color: #D3D3D3;*/
+  background-color: #D3D3D3;
+  background-image: url("images/1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: 'Enriqueta', serif;
@@ -37,7 +38,7 @@ body {
 }
 .center-block_link{
   font-size: 30px;
-  color: red;
+  color: #ff0000;
   cursor: pointer;
   font-family: 'Lexend Zetta', sans-serif;
   font-weight: 300;
@@ -56,10 +57,6 @@ body {
   color: white;
   margin: 0 10px;
 }
-.faceBook:hover, .linkedin:hover, .instagram:hover{
-  cursor: pointer;
-  color: silver;
-}
 .footer{
   box-sizing: border-box;
   overflow:hidden;
@@ -69,4 +66,17 @@ body {
   margin-top: 40px;
   display: flex;
   justify-content: center;
+}
+a{
+  text-decoration: none;
+  color: #ff0000;
+}
+
+.a-icon-social{
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+.a-icon-social:hover{
+  color: #D3D3D3;
 }
